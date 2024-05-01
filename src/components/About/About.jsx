@@ -3,7 +3,7 @@ import '../../index.css'
 import aboutImg from "../../assets/aboutImg.png"
 const About = () => {
     return (
-        <div className='gray-gradient lg:my-40 lg:px-64 flex justify-between text-center lg:text-left px-10'>
+        <div className=' my-20 gray-gradient lg:my-40 lg:px-64 flex justify-between text-center lg:text-left px-10 '>
             <img src={aboutImg} className='hidden lg:block'></img>
             <div className='w-full lg:w-[48%] flex flex-col justify-center items-center gap-10 lg:gap-6'>
                 <h2 className='font-poppins font-medium text-4xl'>About Us</h2>
